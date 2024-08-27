@@ -39,11 +39,8 @@ const sendMessage = async (req, res)=>{
         console.error(error);                
         if (error){
            return res.status(500).json({success: false, message: "Error sending email"})           
-        }
-        
-        return res.status(200).json({success: true, message: "Email sent successfully"})
-        
-        
+        }        
+        return res.status(200).json({success: true, message: "Email sent successfully"})                
     })
 }
 
