@@ -1,13 +1,13 @@
 {
   "name": "mail-sender-node",
   "version": "1.0.0",
-  "description": "",
+  "description": "A dynamic mail sending application",  
   "main": "index.js",
   "scripts": {
     "mailer": "nodemon index"
   },
   "keywords": [],
-  "author": "",
+  "author": "Alexander Nuamah Jr",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.4.5",
